@@ -60,25 +60,26 @@ Switch# end
 ````
 # Login to Ansible Control Machine 
 login to ansible Control Machine to configure ssh key pair with switch
-
+```bash
 Switch# ssh-keygen -t rsa 
+````
 if already generated then no need to generate again
-
+```bash
 Switch# ssh-copy-id kalpesh@SwitchIP
-
+````
 # Ansible Control Machine configuration are as below
 
 copy below block to /etc/ansible/hosts
-
+```bash
 [ciscodevice]
 SwitchIP
 [ciscodevice:vars]
 ansible_ssh_user=<kalpesh>
 ansible_ssh_pass=<123456789>
 ansible_network_os=ios
-
+````
 copy below block to new yml file like vi ping.yml
-
+```bash
 ---
 - name: Test Ping
   hosts: ciscodevice
@@ -89,3 +90,4 @@ copy below block to new yml file like vi ping.yml
   - name: Ping To Cisco Switch
     ios_ping:
      dest: <SwitchIP>
+````

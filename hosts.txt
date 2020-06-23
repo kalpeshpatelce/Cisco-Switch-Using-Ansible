@@ -1,0 +1,6 @@
+[ciscodevice]
+SwitchIP
+[ciscodevice:vars]
+ansible_ssh_user=<kalpesh>
+ansible_ssh_pass=<123456789>
+ansible_network_os=ios

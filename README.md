@@ -10,6 +10,8 @@
  * Enable Telnet from cisco portal http://Cisco_SwitchIP
  Configure >> Express setup >> Advance Settings >> telnet Access >> Enable >> Submit
  
+ ![Image of Ansible](https://media-exp1.licdn.com/dms/image/C4D12AQE1YSD1q9tpZg/article-inline_image-shrink_1000_1488/0?e=1598486400&v=beta&t=DaJSJ2zW2S0HjAN_408UAjwW2qu9xJjPzs4u-iQRqYA)
+ 
 # Configure Cisco Switch from telnet
 ```bash
 Switch# enable 

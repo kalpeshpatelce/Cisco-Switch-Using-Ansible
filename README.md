@@ -1,6 +1,7 @@
 # Configure Cisco Switch for Ansible
  Configure Cisco Switch to Manage from Ansible Script
  
+ ![Image of Ansible](https://media-exp1.licdn.com/dms/image/C4D12AQFd7Kko8Kywdg/article-inline_image-shrink_1000_1488/0?e=1598486400&v=beta&t=6g69GwM1etObZjtBckVGj8EKkkMczrcy0atnaBx3KRo)
  if you want to Access Cisco 2960 Switch from Ansible 
  first you have to configure Cisco 2960 Below
  

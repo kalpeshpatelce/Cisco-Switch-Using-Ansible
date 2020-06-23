@@ -1,4 +1,4 @@
-# Configure Cisco Switch Using Ansible
+# Configure Cisco Switch for Ansible
  Configure Cisco Switch to Manage from Ansible Script
  
  if you want to Access Cisco 2960 Switch from Ansible 

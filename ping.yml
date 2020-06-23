@@ -1,0 +1,10 @@
+---
+- name: Test Cisco Device Ping
+  hosts: ciscodevice
+  gather_facts: no
+  connection: local
+
+  tasks:
+  - name: Ping To Cisco Switch
+    ios_ping:
+     dest: <SwitchIP>

@@ -10,7 +10,7 @@
  Configure >> Express setup >> Advance Settings >> telnet Access >> Enable >> Submit
  
 # Configure Cisco Switch from telnet
-
+```bash
 Switch# enable 
 
 Switch# Enter Password
@@ -57,7 +57,7 @@ Switch# Configure Terminal
 Switch# priviledge exec level 15 configure terminal
  
 Switch# end
-
+````
 # Login to Ansible Control Machine 
 login to ansible Control Machine to configure ssh key pair with switch
 
